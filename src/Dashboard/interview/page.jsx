@@ -92,7 +92,7 @@ function Interview() {
       {/* Start Interview Button */}
       <div className="mt-8">
         <button 
-          className="px-9 py-3 bg-black text-white text-lg font-bold font-mono rounded-lg shadow-md hover:bg-gray-800 transition-all"
+          className="px-10 py-3 bg-black text-white text-lg font-bold font-mono rounded-lg shadow-md hover:bg-gray-800 transition-all"
         >
           Start Interview
         </button>
