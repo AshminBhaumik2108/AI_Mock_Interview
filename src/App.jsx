@@ -3,6 +3,7 @@ import './App.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Layout from './Dashboard/layout.jsx';
 import Interview from './Dashboard/interview/page.jsx';
+import Session from './Dashboard/interview/session.jsx';
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout/>} />
         <Route path="/interview/:interviewId" element={<Interview/>} />
+        <Route path="/interview/:interviewId/session" element={<Session/>} />
       </Routes>  
       </>
   );
